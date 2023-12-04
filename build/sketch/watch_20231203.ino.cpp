@@ -22,7 +22,7 @@ const int resolution = 8;
 
 // Motor speed settings
 float currentSpeed = 150.0; // Start at minimum operational speed
-const float minSpeed = 155.0;
+const float minSpeed = 155.0; 
 float speedIncrement = 0.5;
 int gradualDelay = 3;
 
@@ -31,6 +31,8 @@ const int button01 = 19;
 
 // Button02
 const int button02 = 5;
+
+//test
 
 // Selected program by default
 int selectedProgram = 1;
@@ -74,25 +76,25 @@ MotorProgram programs[] = {program1, program2, program3, program4, program5};
 const int numberOfPrograms = sizeof(programs) / sizeof(MotorProgram);
 
 
-#line 75 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 77 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void setup();
-#line 101 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 103 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void loop();
-#line 129 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 131 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void executeProgram(MotorProgram program);
-#line 216 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 218 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void setMotorSpeed(int speed, int direction);
-#line 237 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 239 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void stopMotor();
-#line 247 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 249 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void decelerateToMinSpeed();
-#line 255 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 257 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void changeMotorDirection(int direction);
-#line 260 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 262 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void showMenu();
-#line 278 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 280 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void displayProgramOption(String programName, int programNumber, int yPosition);
-#line 75 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
+#line 77 "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\watch_20231203.ino"
 void setup() {
   // Initialize motor control pins
   pinMode(motor1Pin1, OUTPUT);
