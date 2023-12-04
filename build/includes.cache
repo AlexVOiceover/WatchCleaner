@@ -1,0 +1,92 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\variants\\esp32da"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "Adafruit_GFX.h",
+    "Includepath": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "Adafruit_I2CDevice.h",
+    "Includepath": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "Adafruit_SSD1306.h",
+    "Includepath": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_SSD1306"
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\watch_20231203\\build\\sketch\\watch_20231203.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_GFX.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_GrayOLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_SPITFT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library\\glcdfont.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\alexr\\Documents\\Arduino\\libraries\\Adafruit_SSD1306\\Adafruit_SSD1306.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
