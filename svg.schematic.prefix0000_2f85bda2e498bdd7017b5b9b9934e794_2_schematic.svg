@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xml="http://www.w3.org/XML/1998/namespace" x="0px" height="0.409653in" enable-background="new 0 0 6.616 29.495" id="Ebene_1" gorn="0"  y="0px" version="1.1" xml:space="preserve" width="0.0918889in" viewBox="0 0 6.616 29.495">
+    <desc >
+        <referenceFile >pushbutton.svg</referenceFile>
+    </desc>
+    <g id="schematic" gorn="0.1" >
+        <line x1="4.741" y1="9.333" stroke="#000000" x2="4.741" y2="7.534" stroke-linecap="round"  fill="none" stroke-width="0.7"/>
+        <line x1="4.741" y1="21.934" stroke="#000000" x2="1.142" y2="9.333" stroke-linecap="round"  fill="none" stroke-width="0.7"/>
+        <circle cx="4.741" stroke="#000000" cy="21.934"  fill="none" stroke-width="0.7" r="0.36"/>
+        <circle cx="4.741" stroke="#000000" cy="7.534"  fill="none" stroke-width="0.7" r="0.36"/>
+        <line x1="4.741" y1="29.135" id="connector0pin" stroke="#555555" x2="4.741" gorn="0.1.4" y2="21.934" stroke-linecap="round"  fill="none" stroke-width="0.7"/>
+        <rect x="4.74" height="0.001" id="connector0terminal" gorn="0.1.5"  fill="none" y="29.134" width="0.002"/>
+        <line x1="4.741" y1="0.333" id="connector1pin" stroke="#555555" x2="4.741" gorn="0.1.6" y2="7.534" stroke-linecap="round"  fill="none" stroke-width="0.7"/>
+        <rect x="4.741" height="0.001" id="connector1terminal" gorn="0.1.7"  fill="none" y="0.333" width="0"/>
+    </g>
+    <g transform="matrix(-4.371139e-008 -1 1 -4.371139e-008 3.4993 26.3738)" >
+        <g >
+            <text font-family="'DroidSans'"  fill="#787878" font-size="2">1</text>
+        </g>
+    </g>
+    <g transform="matrix(-4.371139e-008 -1 1 -4.371139e-008 3.4993 4.532)" >
+        <g >
+            <text font-family="'DroidSans'"  fill="#787878" font-size="2">2</text>
+        </g>
+    </g>
+</svg>

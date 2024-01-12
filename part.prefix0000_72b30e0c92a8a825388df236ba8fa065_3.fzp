@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module fritzingVersion="0.4.1b.07.17.4356" referenceFile="Pushbutton.fzp" moduleId="prefix0000_72b30e0c92a8a825388df236ba8fa065_3">
+ <version>4</version>
+ <author>tigoe</author>
+ <title>Round Pushbutton</title>
+ <label>S</label>
+ <date>Fri Dec 29 2023</date>
+ <tags>
+  <tag>Pushbutton</tag>
+  <tag>button</tag>
+  <tag>user part</tag>
+ </tags>
+ <properties>
+  <property name="family">switch - 2 pin</property>
+  <property name="switching circuit">SPST</property>
+  <property name="default state">Normally Open</property>
+  <property name="mn"></property>
+  <property name="mpn"></property>
+  <property name="layer"></property>
+  <property name="part number"></property>
+  <property name="variant">variant 1</property>
+ </properties>
+ <description>A generic pushbutton.</description>
+ <views>
+  <iconView>
+   <layers image="icon/prefix0000_2f85bda2e498bdd7017b5b9b9934e794_2_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/prefix0000_2f85bda2e498bdd7017b5b9b9934e794_2_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/prefix0000_2f85bda2e498bdd7017b5b9b9934e794_2_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/prefix0000_2f85bda2e498bdd7017b5b9b9934e794_2_pcb.svg">
+    <layer layerId="copper0"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector0" type="male" name="leg0">
+   <description>leg</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector0terminal" layer="breadboard" svgId="connector0pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector0terminal" layer="schematic" svgId="connector0pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector0pin"/>
+     <p layer="copper0" svgId="connector0pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" type="male" name="leg1">
+   <description>leg</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector1terminal" layer="breadboard" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector1terminal" layer="schematic" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" svgId="connector1pin"/>
+     <p layer="copper0" svgId="connector1pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>

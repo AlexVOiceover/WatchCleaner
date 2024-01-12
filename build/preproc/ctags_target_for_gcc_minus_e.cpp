@@ -52,22 +52,90 @@ struct MotorProgram {
   int stepCount;
 };
 
-// When defining program1Steps and program1
-//ProgramStep program1Steps[] = {{190, 5, 0}, {190, 5, 1}, {190, 5, 0},{190, 2, 0}, {190, 2, 1}, {190, 2, 0}};
-ProgramStep program1Steps[] = {{190, 2, 1}, {190, 2, 0}};
-MotorProgram program1 = {"Pre-Clean", program1Steps,2};
+// Define the steps for Program 1
+ProgramStep program1Steps[] = {
+    {200, 13, 0},
+    {200, 3, 1},
+    {200, 3, 0},
+    {200, 3, 1},
+    {200, 3, 0},
+    {200, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1},
+    {190, 3, 0},
+    {190, 3, 1}};
+
+// Define Program 1 with the modified steps
+MotorProgram program1 = {"Pre-Clean", program1Steps, sizeof(program1Steps) / sizeof(program1Steps[0])};
 
 ProgramStep program2Steps[] = {{190, 2, 1}, {190, 2, 0}};
-MotorProgram program2 = {"Clean", program2Steps,2};
+//MotorProgram program2 = {"Clean", program2Steps,2};
+MotorProgram program2 = {"Clean", program2Steps, sizeof(program2Steps) / sizeof(program2Steps[0])};
 
 ProgramStep program3Steps[] = {{190, 2, 1}, {190, 2, 0}};
-MotorProgram program3 = {"Rinse 1", program3Steps,2};
+//MotorProgram program3 = {"Rinse 1", program3Steps,2};
+MotorProgram program3 = {"Rinse1", program3Steps, sizeof(program3Steps) / sizeof(program3Steps[0])};
 
 ProgramStep program4Steps[] = {{190, 2, 1}, {190, 2, 0}};
-MotorProgram program4 = {"Rinse 2", program4Steps,2};
+//MotorProgram program4 = {"Rinse 2", program4Steps,2};
+MotorProgram program4 = {"Rinse2", program4Steps, sizeof(program4Steps) / sizeof(program4Steps[0])};
 
-ProgramStep program5Steps[] = {{190, 2, 1}, {190, 2, 0}};
-MotorProgram program5 = {"Dry", program5Steps,2};
+ProgramStep program5Steps[] = {{190, 180, 1}};
+//MotorProgram program5 = {"Dry", program5Steps,2};
+MotorProgram program5 = {"Dry", program5Steps, sizeof(program5Steps) / sizeof(program5Steps[0])};
 
 
 MotorProgram programs[] = {program1, program2, program3, program4, program5};

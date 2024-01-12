@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module referenceFile="grove_generic.fzp" moduleId="OLED_SSD1306_I2C_128x64_dade152380b6d1002d673a280599cee6_1">
+ <version>4</version>
+ <author>Daniel Eichhorn</author>
+ <title>OLED 0.96" 128x64 I2C SSD1306</title>
+ <label>Squix</label>
+ <date>Fri Dec 29 2023</date>
+ <tags>
+  <tag>SSD1306</tag>
+  <tag>128x64</tag>
+  <tag>OLED</tag>
+  <tag>Display</tag>
+  <tag>I2C</tag>
+ </tags>
+ <properties>
+  <property name="variant">variant 1</property>
+  <property name="family">OLED displays</property>
+  <property name="part number"></property>
+  <property name="resolution">128x64</property>
+  <property name="colors">blue, white, yellow-blue</property>
+  <property name="size">0.96"</property>
+  <property name="layer"></property>
+  <property name="interface">I2C</property>
+  <property name="mn"></property>
+  <property name="mpn"></property>
+ </properties>
+ <taxonomy>part.dip.8.pins</taxonomy>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'.Helvetica Neue DeskInterface'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'MS Shell Dlg 2'; font-size:8pt;">OLED 0.96&amp;quot; 128x64 I2C SSD1306&lt;/span>&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/OLED_SSD1306_I2C_128x64_8af07791f4044a9ce0ae3c8ba21059de_4_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/OLED_SSD1306_I2C_128x64_8af07791f4044a9ce0ae3c8ba21059de_4_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/OLED_SSD1306_I2C_128x64_8af07791f4044a9ce0ae3c8ba21059de_4_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/OLED_SSD1306_I2C_128x64_8af07791f4044a9ce0ae3c8ba21059de_4_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector1" type="male" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector1terminal" layer="schematic" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector1pin"/>
+     <p layer="copper1" svgId="connector1pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector2" type="male" name="VDD">
+   <description>VDD</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector2pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector2terminal" layer="schematic" svgId="connector2pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector2pin"/>
+     <p layer="copper1" svgId="connector2pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector3" type="male" name="SCK">
+   <description>SCK</description>
+   <views>
+    <breadboardView>
+     <p terminalId="connector3terminal" layer="breadboard" svgId="connector3pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector3terminal" layer="schematic" svgId="connector3pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector3pin"/>
+     <p layer="copper1" svgId="connector3pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector4" type="male" name="SDA">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector4pin"/>
+    </breadboardView>
+    <schematicView>
+     <p terminalId="connector4terminal" layer="schematic" svgId="connector4pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector4pin"/>
+     <p layer="copper1" svgId="connector4pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <url>http://blog.squix.ch</url>
+</module>

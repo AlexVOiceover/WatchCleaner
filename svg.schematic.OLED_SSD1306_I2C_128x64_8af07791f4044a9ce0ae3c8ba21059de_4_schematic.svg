@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" x="0in" height="0.71033353in" id="svg2" gorn="0"  y="0in" version="1.2" width="0.71014094in" viewBox="0 0 710.14096 710.33352">
+    <metadata id="metadata41" >
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="" xmlns:cc="http://creativecommons.org/ns#">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs id="defs39" />
+    <desc id="desc4" >
+        <referenceFile >OLED_SSD1306_I2C_128x64_dade152380b6d1002d673a280599cee6_13_schematic.svg</referenceFile>
+    </desc>
+    <g id="schematic" gorn="0.3" >
+        <rect x="105.14088" height="500.00003" id="rect7" stroke="#000000" gorn="0.3.0" stroke-linecap="round"  fill="none" y="105.33353" stroke-width="10.00000095" width="600.00006"/>
+        <g transform="scale(1.0004595,0.99954069)" >
+            <text x="455.05927" id="label" font-family="'Droid Sans'" gorn="0.3.1.0" text-anchor="middle"  fill="#000000" y="289.88074" font-size="60.02757263" stroke-width="0.99999994">OLED 128x64</text>
+        </g>
+        <text x="135" id="label0" font-family="'Droid Sans'" gorn="0.3.2" text-anchor="start"  fill="#555555" y="323.20322" font-size="49">SCL</text>
+        <text x="130.65544" id="label1" font-family="'Droid Sans'" gorn="0.3.3" text-anchor="start"  fill="#555555" y="422.85501" font-size="49">SDA</text>
+        <text x="404.49759" id="text83" font-family="'Droid Sans'" gorn="0.3.4" text-anchor="middle"  fill="#555555" y="574.6994" font-size="49">GND</text>
+        <text x="405.54007" id="text95" font-family="'Droid Sans'" gorn="0.3.5" text-anchor="middle"  fill="#555555" y="170.75017" font-size="49">VCC</text>
+        <text x="455.10742" id="text42" font-family="'Droid Sans'" gorn="0.3.6" text-anchor="middle"  fill="#000000" y="362.74759" font-size="60">SSD1306</text>
+        <g transform="scale(0.9971401,1.0028681)" >
+            <text x="456.16974" id="text44" font-family="'Droid Sans'" gorn="0.3.7.0" text-anchor="middle"  fill="#000000" y="428.51855" font-size="59.82840729" stroke-width="0.99999994">I2C</text>
+        </g>
+        <line x1="405.41428" y1="5.0712123" id="connector1pin" stroke="#555555" x2="405.41428" gorn="0.3.8" y2="100.00121" stroke-linecap="round"  fill="none" stroke-width="10"/>
+        <rect x="400.41428" height="10" id="connector1terminal" gorn="0.3.9"  fill="none" y="0.33321241" stroke-width="0" width="10"/>
+        <line x1="404.99387" y1="610.26233" id="connector2pin" stroke="#555555" x2="404.99387" gorn="0.3.10" y2="705.26233" stroke-linecap="round"  fill="none" stroke-width="10"/>
+        <rect x="399.99387" height="10" id="connector2terminal" gorn="0.3.11"  fill="none" y="700.26233" stroke-width="0" width="10"/>
+        <line x1="5.0712123" y1="305.49341" id="connector3pin" stroke="#555555" x2="100.26112" gorn="0.3.12" y2="305.49341" stroke-linecap="round"  fill="none" stroke-width="10"/>
+        <rect x="0.14087847" height="10" id="connector3terminal" gorn="0.3.13"  fill="none" y="300.63281" stroke-width="0" width="10"/>
+        <line x1="5.0712128" y1="405.49344" id="connector4pin" stroke="#555555" x2="100.26112" gorn="0.3.14" y2="405.49344" stroke-linecap="round"  fill="none" stroke-width="10"/>
+        <rect x="0.14087847" height="10" id="connector4terminal" gorn="0.3.15"  fill="none" y="400.35501" stroke-width="0" width="10"/>
+    </g>
+</svg>

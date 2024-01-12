@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" x="0in" height="1.1346264in" id="svg101" gorn="0"  y="0in" version="1.2" width="1.1405429in" viewBox="0 0 82.119104 81.692913">
+    <desc >
+        <referenceFile >1306Oled.svg</referenceFile>
+    </desc>
+    <defs id="defs105" />
+    <g transform="translate(0.06,-0.15313159)" >
+        <g >
+            <g id="g99" gorn="0.2.0.0"  partID="855140690">
+                <g id="breadboard" gorn="0.2.0.0.0" >
+                    <path id="path27" gorn="0.2.0.0.0.0"  d="M 77.3631,0.153 H 3.946 c -1.66,0 -4.006,2.571 -4.006,5.74501 v 70.2051 c 0,3.171 2.346,5.74301 4.006,5.74301 l 74.1041,-2e-5 c 1.66,0 4.009,-2.572 4.009,-5.74301 V 5.89701 c 0,-3.173 -3.036,-5.74401 -4.696,-5.74401 z M 13.052,80.5011 v 0.006 h -0.047 c -0.094,0.006 -0.183,0.026 -0.276,0.026 -0.112,0 -0.22,-0.021 -0.328,-0.026 H 8.05201 c -0.108,0.008 -0.215,0.026 -0.327,0.026 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.312 1.875,-4.188 4.188,-4.188 h 5.32701 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.154 0,2.204 -1.703,3.989 -3.863,4.157 z M 13.677001,10.626 v 0.005 h -0.047 c -0.094,0.006 -0.183,0.028 -0.276,0.028 -0.112,0 -0.22,-0.019 -0.328,-0.028 H 8.67701 c -0.108,0.009 -0.215,0.028 -0.327,0.028 C 6.03701,10.659 4.162,8.78401 4.162,6.47101 4.162,4.158 6.03601,2.283 8.35001,2.283 h 5.32701 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.155 0,2.202 -1.703,3.987 -3.863,4.155 z m 60.5001,69.6251 v 0.006 h -0.047 c -0.094,0.006 -0.183,0.026 -0.276,0.026 -0.112,0 -0.22,-0.021 -0.328,-0.026 h -4.349 c -0.108,0.008 -0.215,0.026 -0.327,0.026 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.312 1.875,-4.188 4.188,-4.188 h 5.32701 v 0.033 c 2.158,0.168 3.863,1.953 3.863,4.154 0,2.204 -1.703,3.989 -3.863,4.157 z m 1,-69.2511 v 0.006 h -0.047 c -0.094,0.006 -0.183,0.027 -0.276,0.027 -0.112,0 -0.22,-0.02 -0.328,-0.027 h -4.349 c -0.108,0.008 -0.215,0.027 -0.327,0.027 -2.313,0 -4.188,-1.875 -4.188,-4.188 0,-2.313 1.875,-4.188 4.188,-4.188 h 5.32701 l -1e-5,0.033 c 2.158,0.168 3.863,1.953 3.863,4.155 0,2.202 -1.703,3.988 -3.863,4.155 z" fill="#006699"/>
+                    <rect x="28.021" height="7.4270101" id="rect6" gorn="0.2.0.0.0.1"  fill="#454545" y="1.473" width="3.7130001"/>
+                    <polygon points="26.163,7.04101 26.163,3.328 28.021,1.473 28.021,8.89901 " id="polygon8" gorn="0.2.0.0.0.2"  fill="#454545"/>
+                    <polygon points="31.732,8.89901 31.732,1.473 33.593,3.328 33.593,7.04101 " id="polygon10" gorn="0.2.0.0.0.3"  fill="#454545"/>
+                    <rect x="29.223" height="1.668" id="connector1pin" gorn="0.2.0.0.0.4"  fill="#b68b2d" y="4.349" width="1.312"/>
+                    <rect x="35.223" height="7.4270101" id="rect13" gorn="0.2.0.0.0.5"  fill="#454545" y="1.473" width="3.7130001"/>
+                    <polygon points="33.363,7.04101 33.363,3.328 35.223,1.473 35.223,8.89901 " id="polygon15" gorn="0.2.0.0.0.6"  fill="#454545"/>
+                    <polygon points="38.934,8.89901 38.934,1.473 40.792,3.328 40.792,7.04101 " id="polygon17" gorn="0.2.0.0.0.7"  fill="#454545"/>
+                    <rect x="36.421001" height="1.668" id="connector2pin" gorn="0.2.0.0.0.8"  fill="#b68b2d" y="4.349" width="1.312"/>
+                    <rect x="42.421001" height="7.4270101" id="rect20" gorn="0.2.0.0.0.9"  fill="#454545" y="1.473" width="3.7130001"/>
+                    <polygon points="40.564,7.04101 40.564,3.328 42.421,1.473 42.421,8.89901 " id="polygon22" gorn="0.2.0.0.0.10"  fill="#454545"/>
+                    <polygon points="46.134,8.89901 46.134,1.473 47.992,3.328 47.992,7.04101 " id="polygon24" gorn="0.2.0.0.0.11"  fill="#454545"/>
+                    <rect x="43.622002" height="1.668" id="connector3pin" gorn="0.2.0.0.0.12"  fill="#b68b2d" y="4.349" width="1.312"/>
+                    <rect x="49.622101" height="7.4270101" id="rect27" gorn="0.2.0.0.0.13"  fill="#454545" y="1.473" width="3.7130001"/>
+                    <polygon points="47.764,7.04101 47.764,3.328 49.622,1.473 49.622,8.89901 " id="polygon29" gorn="0.2.0.0.0.14"  fill="#454545"/>
+                    <polygon points="53.3331,8.89901 53.3331,1.473 55.1911,3.328 55.1911,7.04101 " id="polygon31" gorn="0.2.0.0.0.15"  fill="#454545"/>
+                    <rect x="50.82" height="1.668" id="connector4pin" gorn="0.2.0.0.0.16"  fill="#b68b2d" y="4.349" width="1.312"/>
+                    <g transform="translate(27.165,12.1396)" >
+                        <g >
+                            <g id="g49" gorn="0.2.0.0.0.17.0.0" >
+                                <g id="g40" gorn="0.2.0.0.0.17.0.0.0" >
+                                    <g id="g38" gorn="0.2.0.0.0.17.0.0.0.0" >
+                                        <g id="g36" gorn="0.2.0.0.0.17.0.0.0.0.0" >
+                                            <g id="text34" font-family="OCRA" gorn="0.2.0.0.0.17.0.0.0.0.0.0"  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.5px;font-family:OCRA;-inkscape-font-specification:'OCRA, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff" fill="#ffffff" font-size="2.5">
+                                                <text x="0" id="tspan465" gorn="0.2.0.0.0.17.0.0.0.0.0.0.0"  y="0">GND</text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(34.4883,12.1377)" >
+                        <g >
+                            <g id="g55" gorn="0.2.0.0.0.18.0.0" >
+                                <g id="g48" gorn="0.2.0.0.0.18.0.0.0" >
+                                    <g id="g46" gorn="0.2.0.0.0.18.0.0.0.0" >
+                                        <g id="g44" gorn="0.2.0.0.0.18.0.0.0.0.0" >
+                                            <g id="text42" font-family="OCRA" gorn="0.2.0.0.0.18.0.0.0.0.0.0"  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.5px;font-family:OCRA;-inkscape-font-specification:'OCRA, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff" fill="#ffffff" font-size="2.5">
+                                                <text x="0" id="tspan463" gorn="0.2.0.0.0.18.0.0.0.0.0.0.0"  y="0">VDD</text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(41.8115,12.1396)" >
+                        <g >
+                            <g id="g61" gorn="0.2.0.0.0.19.0.0" >
+                                <g id="g56" gorn="0.2.0.0.0.19.0.0.0" >
+                                    <g id="g54" gorn="0.2.0.0.0.19.0.0.0.0" >
+                                        <g id="g52" gorn="0.2.0.0.0.19.0.0.0.0.0" >
+                                            <g id="text50" font-family="OCRA" gorn="0.2.0.0.0.19.0.0.0.0.0.0"  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.5px;font-family:OCRA;-inkscape-font-specification:'OCRA, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff" fill="#ffffff" font-size="2.5">
+                                                <text x="0" id="tspan461" gorn="0.2.0.0.0.19.0.0.0.0.0.0.0"  y="0">SCK</text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(49.1348,12.1377)" >
+                        <g >
+                            <g id="g67" gorn="0.2.0.0.0.20.0.0" >
+                                <g id="g64" gorn="0.2.0.0.0.20.0.0.0" >
+                                    <g id="g62" gorn="0.2.0.0.0.20.0.0.0.0" >
+                                        <g id="g60" gorn="0.2.0.0.0.20.0.0.0.0.0" >
+                                            <text id="text58" font-family="OCRA" gorn="0.2.0.0.0.20.0.0.0.0.0.0"  fill="#ffffff" font-size="2">SDA</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <rect x="1.238" height="46" id="rect66" gorn="0.2.0.0.0.21"  fill="#231f20" y="12.726" width="79.125099"/>
+                    <rect x="3.1129999" height="43.5" id="rect68" gorn="0.2.0.0.0.22"  fill="#00435e" y="14.101" width="76.125099"/>
+                    <rect x="25.988001" height="23.375" id="rect70" gorn="0.2.0.0.0.23"  fill="#231f20" y="57.726101" width="30"/>
+                    <g transform="translate(30.7334,64.6007)" >
+                        <g >
+                            <g id="g77" gorn="0.2.0.0.0.24.0.0" >
+                                <g id="g78" gorn="0.2.0.0.0.24.0.0.0" >
+                                    <g id="g76" gorn="0.2.0.0.0.24.0.0.0.0" >
+                                        <g id="g74" gorn="0.2.0.0.0.24.0.0.0.0.0" >
+                                            <text id="text72" font-family="OCRA" gorn="0.2.0.0.0.24.0.0.0.0.0.0"  fill="#ffffff" font-size="2">OLED 128x64</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(34.3076,67.6007)" >
+                        <g >
+                            <g id="g83" gorn="0.2.0.0.0.25.0.0" >
+                                <g id="g86" gorn="0.2.0.0.0.25.0.0.0" >
+                                    <g id="g84" gorn="0.2.0.0.0.25.0.0.0.0" >
+                                        <g id="g82" gorn="0.2.0.0.0.25.0.0.0.0.0" >
+                                            <text id="text80" font-family="OCRA" gorn="0.2.0.0.0.25.0.0.0.0.0.0"  fill="#ffffff" font-size="2">SSD1306</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(37.8823,70.6007)" >
+                        <g >
+                            <g id="g89" gorn="0.2.0.0.0.26.0.0" >
+                                <g id="g94" gorn="0.2.0.0.0.26.0.0.0" >
+                                    <g id="g92" gorn="0.2.0.0.0.26.0.0.0.0" >
+                                        <g id="g90" gorn="0.2.0.0.0.26.0.0.0.0.0" >
+                                            <text id="text88" font-family="OCRA" gorn="0.2.0.0.0.26.0.0.0.0.0.0"  fill="#ffffff" font-size="2">I2C</text>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
